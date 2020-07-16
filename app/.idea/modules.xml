@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-194772349/Grupo5_TA3_InicioSesionFirebase.iml" filepath="$PROJECT_DIR$/.idea/modules/-194772349/Grupo5_TA3_InicioSesionFirebase.iml" group="Grupo5_TA3_InicioSesionFirebase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Grupo5_TA3_InicioSesionFirebase/app" />
+    </modules>
+  </component>
+</project>
