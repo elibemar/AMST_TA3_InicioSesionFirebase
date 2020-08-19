@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Grupo5_TA3_InicioSesionFirebase</string>
+    <string name="registroLab4">Registros Lab4</string>
+    <string name="registroLab5">Registro Lab5</string>
 </resources>

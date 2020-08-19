@@ -100,4 +100,10 @@ public class PerfilUsuario extends AppCompatActivity {
         intent.putExtra("msg","cerrarSesion");
         startActivity(intent);
     }
+
+    public void registrosLab5(View view){
+        Intent intent = new Intent(this, Registros.class);
+        finish();
+        startActivity(intent);
+    }
 }
