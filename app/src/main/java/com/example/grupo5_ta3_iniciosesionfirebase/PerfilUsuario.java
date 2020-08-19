@@ -49,18 +49,11 @@ public class PerfilUsuario extends AppCompatActivity {
         txt_name = (TextView)findViewById(R.id.txt_nombre);
         txt_email = (TextView)findViewById(R.id.txt_correo);
         imv_photo = (ImageView)findViewById(R.id.imv_foto);
-        txt_gender = (TextView)findViewById(R.id.txt_gender);
-        txt_bday = (TextView)findViewById(R.id.txt_bday);
-        txt_phone = (TextView)findViewById(R.id.txt_phone);
-        txt_bio = (TextView)findViewById(R.id.txt_bio);
 
         txt_id.setText(info_user.get("user_id"));
         txt_name.setText(info_user.get("user_name"));
         txt_email.setText(info_user.get("user_email"));
-        txt_gender.setText(info_user.get("user_gender"));
-        txt_bday.setText(info_user.get("user_birthday"));
-        txt_phone.setText(info_user.get("user_phone"));
-        txt_bio.setText(info_user.get("user_bio"));
+        
         photo = info_user.get("user_photo");
         Picasso.with(getApplicationContext()).load(photo).into(imv_photo);
     }
