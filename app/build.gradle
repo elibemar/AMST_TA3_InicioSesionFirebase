@@ -10,7 +10,7 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -23,6 +23,10 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
     }
 }
 
@@ -41,8 +45,9 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.google.firebase:firebase-database:19.1.0'
-
-
+    implementation 'com.google.apis:google-api-services-people:v1-rev537-1.25.0'
+    implementation 'com.google.api-client:google-api-client-android:1.30.10'
+    implementation 'com.android.support:multidex:1.0.3'
 }
 
 apply plugin: 'com.google.gms.google-services'
