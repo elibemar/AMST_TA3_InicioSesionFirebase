@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.apis:google-api-services-people:v1-rev537-1.25.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-people/v1-rev537-1.25.0/a9a0ca1f10d3e53f8849ba840648096f6fa64f7b/google-api-services-people-v1-rev537-1.25.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-people/v1-rev537-1.25.0/65b3cec452af00f6506fa6ce52f1e6ba70823a7d/google-api-services-people-v1-rev537-1.25.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-people/v1-rev537-1.25.0/a16e305f98e3ca04cdc2d08dfb60b1cd1d05e90b/google-api-services-people-v1-rev537-1.25.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

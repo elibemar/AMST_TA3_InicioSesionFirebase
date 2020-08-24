@@ -106,4 +106,10 @@ public class PerfilUsuario extends AppCompatActivity {
         finish();
         startActivity(intent);
     }
+
+    public void registrosLab4(View view){
+        Intent intent = new Intent(this, Registros.class);
+        finish();
+        startActivity(intent);
+    }
 }

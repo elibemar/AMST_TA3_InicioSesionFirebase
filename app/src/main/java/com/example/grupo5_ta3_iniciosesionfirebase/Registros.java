@@ -20,7 +20,7 @@ public class Registros extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registros);
-        db_reference = FirebaseDatabase.getInstance().getReference().child("Registros");
+        db_reference = FirebaseDatabase.getInstance().getReference().child("Grupo5");
 
         System.out.println(db_reference);
         leerRegistros();
@@ -45,13 +45,13 @@ public class Registros extends AppCompatActivity {
     public void  mostrarRegistrosPorPantalla(DataSnapshot snapshot){
         LinearLayout contTemp = (LinearLayout) findViewById(R.id.ContenedorTemp);
         LinearLayout contAxis = (LinearLayout) findViewById(R.id.ContenedorAxis);
-        String tempVal = String.valueOf(snapshot.child("temp").getValue());
-        String axisVal = String.valueOf(snapshot.child("axi").getValue());
+        String tempVal = String.valueOf(snapshot.child("payload_fields").child("temperatura").getValue());
+        String axisVal = String.valueOf(snapshot.child("payload_fields").child("humedad").getValue());
         TextView temp = new TextView(getApplicationContext());
         temp.setText(tempVal+" C");
         contTemp.addView(temp);
         TextView axis = new TextView(getApplicationContext());
-        axis.setText(axisVal);
+        axis.setText(axisVal + " %");
         contAxis.addView(axis);
     }
 
